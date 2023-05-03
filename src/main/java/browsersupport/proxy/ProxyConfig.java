@@ -1,4 +1,4 @@
-package utils.proxy;
+package browsersupport.proxy;
 
 import org.openqa.selenium.Proxy;
 

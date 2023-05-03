@@ -1,4 +1,4 @@
-package utils;
+package browsersupport;
 
 public class IllegalBrowserException extends Exception {
     public IllegalBrowserException() {
