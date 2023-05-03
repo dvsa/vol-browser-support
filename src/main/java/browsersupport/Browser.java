@@ -1,13 +1,13 @@
-package utils;
+package browsersupport;
 
 
 import org.openqa.selenium.WebDriver;
-import utils.Parallel.ChromeSetUp;
-import utils.Parallel.EdgeSetUp;
-import utils.Parallel.FirefoxSetUp;
-import utils.Parallel.SafariSetUp;
-import utils.config.Configuration;
-import utils.proxy.ProxyConfig;
+import browsersupport.Parallel.ChromeSetUp;
+import browsersupport.Parallel.EdgeSetUp;
+import browsersupport.Parallel.FirefoxSetUp;
+import browsersupport.Parallel.SafariSetUp;
+import browsersupport.config.Configuration;
+import browsersupport.proxy.ProxyConfig;
 
 import java.net.MalformedURLException;
 

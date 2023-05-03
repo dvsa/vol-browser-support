@@ -6,7 +6,7 @@ import org.mockserver.model.HttpRequest;
 import org.openqa.selenium.devtools.DevTools;
 import org.openqa.selenium.devtools.HasDevTools;
 import org.openqa.selenium.devtools.v110.network.Network;
-import utils.Browser;
+import browsersupport.Browser;
 
 import java.util.Optional;
 
