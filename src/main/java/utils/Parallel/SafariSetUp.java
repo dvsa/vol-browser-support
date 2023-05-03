@@ -30,7 +30,7 @@ public class SafariSetUp {
         WebDriverManager.safaridriver().setup();
         safari.setCapability("idleTimeout", 5000);
         safari.setCapability("name", "VOL-Cross-Browser");
-        if (getPlatform() == null) {
+        if (getBrowserVersion() == null) {
             driver = new SafariDriver(getSafari());
         } else {
             safari.setCapability("platform", getPlatform());
